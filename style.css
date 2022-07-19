@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  --input-field-width: 80% ;
+  --input-field-padding: 10px;
+  --input-field-border: 1px solid grey;
+  --input-field-margin-top: 20px;
+}
+
+h3{
+  color: blue;
+}
+.form-container{
+  width: 50%;
+  height: 50vh;
+  background-color: whitesmoke;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  margin: 20px auto;
+}
+
+label{
+  display: block;
+  margin: 0.5rem 0;
+}
